@@ -8,7 +8,7 @@ on:
 jobs:
   terraform:
     name: Terraform Apply
-    runs-on: [self-hosted]  # or use a specific label like [self-hosted, linux]
+    runs-on: [self-hosted]  
 
     steps:
       - name: Checkout Repo
